@@ -1,0 +1,122 @@
+.slide
+{
+	background-color: #1c1e20;
+}
+
+.number
+{
+	position: fixed;
+	bottom: 0.2%;
+	left: 0.5%;
+	font-size: 105%;
+	font-weight: bold;
+	font-family: Monospace;
+}
+
+.contentslide>.title
+{
+	position: fixed;
+	font-family: Monospace;
+	font-size: 275%;
+	font-weight: bold;
+	top: 5%;
+	right: 10%;
+}
+
+.contentslide>.body
+{
+	font-family: Monospace;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.titleslide>.title
+{
+	position: fixed;
+	font-family: Monospace;
+	font-size: 275%;
+	font-weight: bold;
+	top: 5%;
+	right: 10%;
+}
+
+.titleslide>.body
+{
+	font-family: Monospace;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.logo
+{
+	min-width: 400px;
+	min-height: 400px;
+	max-width: 400px;
+	max-height: 400px;
+}
+
+.bottom
+{
+	padding: 7px 7px 7px;
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+	min-height: 15%;
+/*	background-color: #1f2123;*/
+	background-color: rgba(31,33,35,100);
+	font-size: 125%;
+}
+
+.bottom>.author
+{
+	color: orange;/*#00a800;*/
+	text-shadow: 4px 4px #000;
+}
+
+.bottom>.organization
+{
+	text-shadow: 4px 4px #000;
+}
+
+.bottom>.webpages
+{
+	color: #00a800;
+}
+
+a:link
+{
+	border: 0px;
+	text-shadow: 1px 1px #000;
+	background-color: rgba(0,0,0,0);
+}
+
+a:visited 
+{
+	background-color: rgba(0,0,0,0);
+	text-shadow: 0px 0px #000;
+}
+
+a:hover 
+{
+	background-color: rgba(0,0,0,0);
+	text-shadow: 4px 4px #000;
+}
+
+a:active
+{
+	background-color: rgba(0,0,0,0);
+	text-shadow: 1px 1px #000;
+}
+
+.follow
+{
+	padding: 7px 7px 7px;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	min-height: 15%;
+	background-color: rgba(31,33,35,100);
+	font-size: 125%;
+	max-height: 15%;
+}
