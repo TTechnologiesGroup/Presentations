@@ -1,4 +1,3 @@
-echo "# Presentations" >> README.md
 git init
 git add -A
 git commit -m "first commit"
